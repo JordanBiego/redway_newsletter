@@ -2,36 +2,34 @@
   <div class="container py-5 h-100">
     <div class="row d-flex justify-content-center align-items-center h-100">
       <div class="col-12 col-md-12 col-lg-12 col-xl-12 text-center h-100">
-            <h1> <strong> Proteja Seu Futuro com a Redway! </strong> </h1>
-              </br>
+        <h1><strong><%= t('welcome_message') %></strong></h1>
+        <br>
         <div class="card shadow" style="border-radius: 1rem;">
           <div class="card-body p-5 text-center">
-              <h5> <strong> Bem-vindo à Redway, sua consultoria líder em segurança cibernética. </strong> </h5> 
-              <h5> <strong> Não somos apenas especialistas; somos perfeccionistas na arte da defesa digital. </strong> </h5>
-              </br>
-             <div class="h4 pb-2 mb-4 text-dark border-bottom border-dark">
-              </div>
-             <div class="h5 pb-3 mb-4 text-dark border-bottom border-dark">
-              <h4> <strong> Oferecemos excelência em Cybersecurity: </strong> </h4>
-                <li> Revisão de Código Fonte;</li>
-                <li> Testes de Penetração;</li>
-                <li> Engenharia Social;</li>
-                <li> Gerenciamento de Vulnerabilidades;</li>
-                <li> Verificações de Conformidade;</li>
-                <li> Gerenciamento de Superfície de Ataque;</li>
-                <li> Gerenciamento de Riscos Cibernéticos de Terceiros;</li>
-                <li> Segurança de Aplicações;</li>
-              </div>  
+            <h5><strong><%= t('about_redway') %></strong></h5>
+            <h5><strong><%= t('experts_description') %></strong></h5>
+            <br>
+            <div class="h4 pb-2 mb-4 text-dark border-bottom border-dark">
+            </div>
             <div class="h5 pb-3 mb-4 text-dark border-bottom border-dark">
-              <h4> <strong> Junte-se ao Futuro Protegido! </strong> </h4>
-             <span> Com um foco afiado na excelência técnica, estamos aqui para fortalecer sua postura de segurança. Nossa equipe altamente especializada traz mais de 15 anos de experiência, lidando com projetos complexos em diversos setores de negócios. </span>
-              </br>
-              </br>
-             <span> Assine nossa newsletter para insights exclusivos, dicas de especialistas e as últimas tendências em segurança cibernética. Mantenha-se à frente na corrida digital com a Redway ao seu lado. </span>
-            </div> 
-          <%= render 'shared/error_messages'%>
-          
-          <%= render 'shared/form' %>
+              <h4><strong><%= t('cybersecurity_offer') %></strong></h4>
+              <ul>
+                <% t('services').each do |service| %>
+                  <li><%= service %></li>
+                <% end %>
+              </ul>
+            </div>
+            <div class="h5 pb-3 mb-4 text-dark border-bottom border-dark">
+              <h4><strong><%= t('join_future') %></strong></h4>
+              <span><%= t('technical_excellence') %></span>
+              <br>
+              <br>
+              <span><%= t('subscribe_newsletter') %></span>
+            </div>
+            
+            <%= render 'shared/error_messages'%>
+            
+            <%= render 'shared/form' %>
 
           </div>
         </div>

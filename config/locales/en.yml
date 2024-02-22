@@ -1,31 +1,24 @@
-# Files in the config/locales directory are used for internationalization and
-# are automatically loaded by Rails. If you want to use locales other than
-# English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t "hello"
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t("hello") %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# To learn more about the API, please read the Rails Internationalization guide
-# at https://guides.rubyonrails.org/i18n.html.
-#
-# Be aware that YAML interprets the following case-insensitive strings as
-# booleans: `true`, `false`, `on`, `off`, `yes`, `no`. Therefore, these strings
-# must be quoted to be interpreted as strings. For example:
-#
-#     en:
-#       "yes": yup
-#       enabled: "ON"
-
 en:
-  hello: "Hello world"
+  welcome_message: "Protect Your Future with Redway!"
+  about_redway: "Welcome to Redway, your leading cybersecurity consultancy."
+  experts_description: "We're not just experts; we're perfectionists in the art of digital defense."
+  cybersecurity_offer: "We offer excellence in Cybersecurity:"
+  services:
+    - "Source Code Review;"
+    - "Penetration Tests;"
+    - "Social Engineering;"
+    - "Vulnerability Management;"
+    - "Compliance Checks;"
+    - "Attack Surface Management;"
+    - "Third-Party Cyber Risk Management;"
+    - "Application Security;"
+  join_future: "Join the Secured Future!"
+  technical_excellence: "With a razor-sharp focus on technical excellence, we're here to fortify your security posture. Our highly specialized team brings over 15 years of experience, handling complex projects across diverse business sectors."
+  subscribe_newsletter: "Subscribe to our newsletter for exclusive insights, expert tips, and the latest trends in cybersecurity. Stay ahead in the digital race with Redway by your side."
+  language: "Language"
+  
+  lead:
+    name: 'Name'
+    email: 'Email'
+    submit: 'Submit'
+    access_site: 'Access the website!'

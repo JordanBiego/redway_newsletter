@@ -1,2 +1,9 @@
 @import 'variables';
 @import "bootstrap";
+
+/* application.scss */
+
+.custom-container {
+  max-width: 93%; /* Adjust the value as needed to control the container width */
+  margin: 0 auto; /* Center the container horizontally */
+}

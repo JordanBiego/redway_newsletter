@@ -1,0 +1,25 @@
+pt:
+  welcome_message: "Proteja Seu Futuro com a Redway!"
+  about_redway: "Bem-vindo à Redway, sua consultoria líder em segurança cibernética."
+  experts_description: "Não somos apenas especialistas; somos perfeccionistas na arte da defesa digital."
+  cybersecurity_offer: "Oferecemos excelência em Cybersecurity:"
+  services:
+    - "Revisão de Código Fonte;"
+    - "Testes de Penetração;"
+    - "Engenharia Social;"
+    - "Gerenciamento de Vulnerabilidades;"
+    - "Verificações de Conformidade;"
+    - "Gerenciamento de Superfície de Ataque;"
+    - "Gerenciamento de Riscos Cibernéticos de Terceiros;"
+    - "Segurança de Aplicações;"
+  join_future: "Junte-se ao Futuro Protegido!"
+  technical_excellence: "Com um foco afiado na excelência técnica, estamos aqui para fortalecer sua postura de segurança. Nossa equipe altamente especializada traz mais de 15 anos de experiência, lidando com projetos complexos em diversos setores de negócios."
+  subscribe_newsletter: "Assine nossa newsletter para insights exclusivos, dicas de especialistas e as últimas tendências em segurança cibernética. Mantenha-se à frente na corrida digital com a Redway ao seu lado."
+  language: "Idioma"
+  
+  lead:
+    name: 'Nome'
+    email: 'Email'
+    submit: 'Enviar'
+    access_site: 'Acesse o site!'
+
