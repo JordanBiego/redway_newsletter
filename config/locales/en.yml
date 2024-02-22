@@ -16,9 +16,12 @@ en:
   technical_excellence: "With a razor-sharp focus on technical excellence, we're here to fortify your security posture. Our highly specialized team brings over 15 years of experience, handling complex projects across diverse business sectors."
   subscribe_newsletter: "Subscribe to our newsletter for exclusive insights, expert tips, and the latest trends in cybersecurity. Stay ahead in the digital race with Redway by your side."
   language: "Language"
-  
   lead:
     name: 'Name'
     email: 'Email'
     submit: 'Submit'
     access_site: 'Access the website!'
+  leads:
+    create:
+      success: 'Email successfully registered!'
+      alert: 'Email already registered.'

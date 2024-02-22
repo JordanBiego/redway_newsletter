@@ -4,9 +4,9 @@ class LeadsController < ApplicationController
   def create
     @lead = Lead.create(name: params[:name], email: params[:email])
     if @lead.save
-      flash[:success] = 'Email cadastrado com sucesso!'
+      flash[:success] = t('leads.create.success')
     else
-      flash[:alert] = 'Email cadastrado anteriormente.'
+      flash[:alert] = t('leads.create.alert')
     end
     redirect_to :root
   end

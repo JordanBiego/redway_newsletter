@@ -14,9 +14,11 @@
             <div class="h5 pb-3 mb-4 text-dark border-bottom border-dark">
               <h4><strong><%= t('cybersecurity_offer') %></strong></h4>
               <ul>
-                <% t('services').each do |service| %>
-                  <li><%= service %></li>
-                <% end %>
+                <div class="container align-items-center col-6">
+                  <% t('services').each do |service| %>
+                    <li><%= service %></li>
+                  <% end %>
+                </div>
               </ul>
             </div>
             <div class="h5 pb-3 mb-4 text-dark border-bottom border-dark">
