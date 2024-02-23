@@ -21,7 +21,7 @@ This project is a test application for a job at Redway. It is a simple newslette
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/redway-newsletter.git
+   git clone https://github.com/JordanBiego/redway_newsletter
    ```
 2. Navigate to the project directory:
     ```bash
