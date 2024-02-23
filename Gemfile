@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '3.2.2'
 
 gem 'bootsnap', require: false
-gem 'bootstrap', '~> 5.3.1'
+gem 'bootstrap', '5.3.2'
 gem 'devise', '~> 4.9'
 gem 'dotenv', groups: %i[development test]
 gem 'importmap-rails'
