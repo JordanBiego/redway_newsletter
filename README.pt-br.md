@@ -28,13 +28,16 @@ Este projeto é uma aplicação de teste para uma vaga na Redway. É um aplicati
 3. Crie o container com o Docker:
     ```bash
     docker-compose build
-4. Execute o seed para popular o banco de dados:
+4. Execute as migrações:
+    ```bash
+    docker-compose run web bin/rails db:migrate
+5. Execute o seed para popular o banco de dados:
     ```bash
     docker-compose run web bin/rails db:seed
-5. Suba o servidor:
+6. Suba o servidor:
     ```bash
     docker-compose up
-6. Visite http://localhost:3000 no seu browser.
+7. Visite http://localhost:3000 no seu browser.
 
 ## Usabilidade
 
