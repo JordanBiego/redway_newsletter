@@ -12,9 +12,6 @@ services:
       BUNDLE_DEPLOYMENT: "1"
       BUNDLE_PATH: "/usr/local/bundle"
       BUNDLE_WITHOUT: "production"
-      EMAIL: 'hollowtechsolutions@gmail.com'
-      PASSWORD: 'Drako@391'
-      SENDGRID_API_KEY: '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'
     volumes:
       - .:/rails
     depends_on:
