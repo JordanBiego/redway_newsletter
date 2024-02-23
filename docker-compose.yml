@@ -14,7 +14,7 @@ services:
       BUNDLE_WITHOUT: "production"
       EMAIL: 'hollowtechsolutions@gmail.com'
       PASSWORD: 'Drako@391'
-      SENDGRID_API_KEY: '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'
+      SENDGRID_API_KEY: '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'
     volumes:
       - .:/rails
     depends_on:
