@@ -35,7 +35,7 @@ Este projeto é uma aplicação de teste para uma vaga na Redway. É um aplicati
     ```bash
     docker-compose run web bin/rails db:seed
         
-5.1. Para fazer funcionar o sistema de envio de emails, renomeie o arquivo `env.exemple` na raiz do projeto, para `.env` e coloque as variaveis recebidas por email:
+5.1. Para fazer funcionar o sistema de envio de emails, renomeie o arquivo `env.example` na raiz do projeto, para `.env` e copie/cole as variaveis recebidas por email:
    ```bash
    #./.env
    # paste the variables bello
