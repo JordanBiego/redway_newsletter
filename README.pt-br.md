@@ -21,7 +21,7 @@ Este projeto é uma aplicação de teste para uma vaga na Redway. É um aplicati
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/yourusername/redway-newsletter.git
+   git clone https://github.com/JordanBiego/redway_newsletter
 2. Navegue na pasta do projeto clonado:
     ```bash
     cd redway-newsletter
