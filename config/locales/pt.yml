@@ -25,3 +25,11 @@ pt:
     create:
       success: 'Email cadastrado com sucesso!'
       alert: 'Email cadastrado anteriormente.'
+  lead_mailer:
+    welcome_email:
+      subject: 'Boletim Informativo da Redway'
+      intro: 'Fique atualizado com as últimas notícias e insights da Redway Security.'
+      content: 'Explore nossos blogs para saber mais sobre as tendências e melhores práticas em cibersegurança.'
+      blog_link: 'https://blog.redwaysecurity.com'
+      blog_cta: 'Leia nossos últimos blogs'
+      outro: 'Obrigado por se manter conectado com a Redway Security!'

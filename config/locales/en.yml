@@ -25,3 +25,11 @@ en:
     create:
       success: 'Email successfully registered!'
       alert: 'Email already registered.'
+  lead_mailer:
+    welcome_email:
+      subject: 'Redway Newsletter'
+      intro: 'Stay updated with the latest news and insights from Redway Security.'
+      content: 'Explore our blogs to learn more about cybersecurity trends and best practices.'
+      blog_link: 'https://blog.redwaysecurity.com'
+      blog_cta: 'Read our latest blogs'
+      outro: 'Thank you for staying connected with Redway Security!'

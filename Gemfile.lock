@@ -110,6 +110,7 @@ GEM
       irb (~> 1.10)
       reline (>= 0.3.8)
     diff-lcs (1.5.1)
+    dotenv (3.0.2)
     drb (2.2.0)
       ruby2_keywords
     e2mmap (0.1.0)
@@ -259,6 +260,7 @@ GEM
       parser (>= 3.2.1.0)
     ruby-progressbar (1.13.0)
     ruby2_keywords (0.0.5)
+    ruby_http_client (3.5.5)
     rubyzip (2.3.2)
     sassc (2.4.0)
       ffi (~> 1.9)
@@ -273,6 +275,8 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
+    sendgrid-ruby (6.7.0)
+      ruby_http_client (~> 3.4)
     solargraph (0.50.0)
       backport (~> 1.2)
       benchmark
@@ -343,6 +347,7 @@ DEPENDENCIES
   bootstrap (~> 5.3.1)
   capybara
   debug
+  dotenv
   importmap-rails
   jbuilder
   pry
@@ -352,6 +357,7 @@ DEPENDENCIES
   redis (>= 4.0.1)
   sassc-rails
   selenium-webdriver
+  sendgrid-ruby
   solargraph
   sprockets-rails
   sqlite3 (~> 1.4)

@@ -1,9 +1,8 @@
 class LeadsController < ApplicationController
-  def index; end
-
   def create
     @lead = Lead.create(name: params[:name], email: params[:email])
     if @lead.save
+      LeadMailer.welcome_email(@lead, I18n.locale).deliver_now
       flash[:success] = t('leads.create.success')
     else
       flash[:alert] = t('leads.create.alert')

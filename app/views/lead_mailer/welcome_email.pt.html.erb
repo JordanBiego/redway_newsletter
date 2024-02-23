@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1><%= t('lead_mailer.welcome_email.subject') %></h1>
+    <p><%= t('lead_mailer.welcome_email.intro') %></p>
+
+    <p><%= t('lead_mailer.welcome_email.content') %></p>
+
+    <a href="<%= t('lead_mailer.welcome_email.blog_link') %>">
+      <%= t('lead_mailer.welcome_email.blog_cta') %>
+    </a>
+
+    <p><%= t('lead_mailer.welcome_email.outro') %></p>
+  </body>
+</html>
