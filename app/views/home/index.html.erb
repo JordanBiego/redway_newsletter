@@ -1,0 +1,41 @@
+<section class="vh-100">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-12 col-md-12 col-lg-12 col-xl-12 text-center h-100">
+        <h1><strong><%= t('welcome_message') %></strong></h1>
+        <br>
+        <div class="card shadow" style="border-radius: 1rem;">
+          <div class="card-body p-5 text-center">
+            <h5><strong><%= t('about_redway') %></strong></h5>
+            <h5><strong><%= t('experts_description') %></strong></h5>
+            <br>
+            <div class="h4 pb-2 mb-4 text-dark border-bottom border-dark">
+            </div>
+            <div class="h5 pb-3 mb-4 text-dark border-bottom border-dark">
+              <h4><strong><%= t('cybersecurity_offer') %></strong></h4>
+              <ul>
+                <div class="container align-items-center col-6">
+                  <% t('services').each do |service| %>
+                    <li><%= service %></li>
+                  <% end %>
+                </div>
+              </ul>
+            </div>
+            <div class="h5 pb-3 mb-4 text-dark border-bottom border-dark">
+              <h4><strong><%= t('join_future') %></strong></h4>
+              <span><%= t('technical_excellence') %></span>
+              <br>
+              <br>
+              <span><%= t('subscribe_newsletter') %></span>
+            </div>
+            
+            <%= render 'shared/error_messages'%>
+            
+            <%= render 'shared/form' %>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
