@@ -34,6 +34,15 @@ Este projeto é uma aplicação de teste para uma vaga na Redway. É um aplicati
 5. Execute o seed para popular o banco de dados:
     ```bash
     docker-compose run web bin/rails db:seed
+        
+5.1. Para fazer funcionar o sistema de envio de emails, renomeie o arquivo `env.exemple` na raiz do projeto, para `.env` e coloque as variaveis recebidas por email:
+   ```bash
+   #./.env
+   # paste the variables bello
+   EMAIL=''
+   PASSWORD=''
+   SENDGRID_API_KEY=''
+   ```
 6. Suba o servidor:
     ```bash
     docker-compose up
