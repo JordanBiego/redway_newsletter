@@ -22,19 +22,19 @@ Este projeto é uma aplicação de teste para uma vaga na Redway. É um aplicati
 1. Clone o repositório:
    ```bash
    git clone https://github.com/yourusername/redway-newsletter.git
-2.Navegue até o diretório do projeto:
+2. Navegue na pasta do projeto clonado:
     ```bash
     cd redway-newsletter
-3. Construa os containers Docker:
+3. Crie o container com o Docker:
     ```bash
-      docker-compose build
-4. Execute o seed para o login do Admin:
-     ```bash
-     docker-compose run web bin/rails db:seed
-5. Execute o aplicativo:
-     ```bash
-     docker-compose up
-6. Acesse http://localhost:3000 no seu navegador.
+    docker-compose build
+4. Execute o seed para popular o banco de dados:
+    ```bash
+    docker-compose run web bin/rails db:seed
+5. Suba o servidor:
+    ```bash
+    docker-compose up
+6. Visite http://localhost:3000 no seu browser.
 
 ## Usabilidade
 
