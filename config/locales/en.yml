@@ -1,4 +1,6 @@
 en:
+  back: "Back"
+  sign_in: "Sign In"
   welcome_message: "Protect Your Future with Redway!"
   about_redway: "Welcome to Redway, your leading cybersecurity consultancy."
   experts_description: "We're not just experts; we're perfectionists in the art of digital defense."
@@ -33,3 +35,6 @@ en:
       blog_link: 'https://blog.redwaysecurity.com'
       blog_cta: 'Read our latest blogs'
       outro: 'Thank you for staying connected with Redway Security!'
+  users:
+    leads_table: "Leads Table"
+  
