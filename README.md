@@ -1,24 +1,42 @@
-# README
+# Redway Newsletter Test Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description
 
-Things you may want to cover:
+This project is a test application for a job at Redway. It is a simple newsletter app designed to allow users to sign up for newsletters and receive a confirmation email with a blog link. Additionally, there is an admin feature that enables Redway administrators to download a list containing all the emails submitted by users.
 
-* Ruby version
+## Features
 
-* System dependencies
+- **Newsletter Signup:** Users can enter their email and name to receive newsletters via email upon signup;
+- **Language selector:** This app has English and Portuguese translations;
+- **Admin:** Redway administrators can enter the admin page to see a list with all the leads imputed, and can download the list to a .TXT too.
 
-* Configuration
+## Installation
 
-* Database creation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/redway-newsletter.git
+2. Navigate to the project directory:
+    ```bash
+    cd redway-newsletter
+3. Build the Docker containers:
+    ```bash
+      docker-compose build
+4. Run the seed for the Admin login:
+     ```bash
+     docker-compose run web bin/rails db:seed
+5. Run the app:
+     ```bash
+     docker-compose up
+6. Visit http://localhost:3000 in your browser.
 
-* Database initialization
+## Usage
 
-* How to run the test suite
+1. Access the application at http://localhost:3000.
+2. Users can sign up for newsletters by entering their email and name.
+3. Users receive a confirmation email with a blog link.
+4. Redway administrators can download a list of all user-submitted emails.
 
-* Services (job queues, cache servers, search engines, etc.)
+## License:
 
-* Deployment instructions
+This project is purely educational, please do not redistribute without consent!
 
-* ...
