@@ -27,13 +27,13 @@ This project is a test application for a job at Redway. It is a simple newslette
     cd redway-newsletter
 3. Build the Docker containers:
     ```bash
-      docker-compose build
+    docker-compose build
 4. Run the seed for the Admin login:
-     ```bash
-     docker-compose run web bin/rails db:seed
+    ```bash
+    docker-compose run web bin/rails db:seed
 5. Run the app:
-     ```bash
-     docker-compose up
+    ```bash
+    docker-compose up
 6. Visit http://localhost:3000 in your browser.
 
 ## Usage
