@@ -14,6 +14,13 @@
             <a class="dropdown-item" href="<%= url_for(locale: :pt) %>"> <%= image_tag("BR.png") %> Português</a>
           </div>
         </li>
+        <a>
+        <% if user_signed_in? %>
+          <%= link_to 'Logout', destroy_user_session_path, class:'btn btn-primary btn-lg btn-block' %>
+        <% else%>
+          <%= link_to "Admin", new_user_session_path, class:'btn btn-primary btn-lg btn-block'%>
+        <%end%>
+        </a>
       </ul>
     </div>
   </div>

@@ -4,6 +4,7 @@ ruby '3.2.2'
 
 gem 'bootsnap', require: false
 gem 'bootstrap', '~> 5.3.1'
+gem 'devise', '~> 4.9'
 gem 'dotenv', groups: %i[development test]
 gem 'importmap-rails'
 gem 'jbuilder'
@@ -12,6 +13,7 @@ gem 'rails', '~> 7.1.3'
 gem 'redis', '>= 4.0.1'
 gem 'sassc-rails'
 gem 'sendgrid-ruby'
+gem 'simple_form'
 gem 'sprockets-rails'
 gem 'sqlite3', '~> 1.4'
 gem 'stimulus-rails'

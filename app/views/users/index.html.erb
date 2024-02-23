@@ -1,0 +1,27 @@
+<section class="vh-100">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-12 col-md-12 col-lg-12 col-xl-12 text-center h-100">
+        <h3><strong><%= t('users.leads_table') %></strong></h3>
+        <br>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col"><%= t('lead.name')%></th>
+              <th scope="col"><%= t('lead.email')%></th>
+            </tr>
+          </thead>
+          <tbody>
+            <% @leads.each do |lead| %>
+              <tr>
+                <td><%= lead.name %></td>
+                <td><%= lead.email %></td>
+              </tr>
+            <% end %>
+          </tbody>
+        </table>
+        <%= link_to "Download", download_leads_path(format: 'txt'), class: 'btn btn-primary' %>
+      </div>
+    </div>
+  </div>
+</section>
