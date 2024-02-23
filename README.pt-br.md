@@ -6,6 +6,11 @@
 
 Este projeto é uma aplicação de teste para uma vaga na Redway. É um aplicativo simples de newsletter projetado para permitir que os usuários se inscrevam e recebam um e-mail de confirmação com um link para o blog. Além disso, há um recurso de administrador que permite aos administradores da Redway fazer o download de uma lista contendo todos os e-mails enviados pelos usuários.
 
+## Requisitos
+
+- **Docker**;
+- **Docker-compose**;
+
 ## Features
 
 - **Inscrição na Newsletter:** Os usuários podem inserir seu e-mail e nome para receber newsletters por e-mail após a inscrição;
