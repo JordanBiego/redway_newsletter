@@ -40,7 +40,7 @@ This project is a test application for a job at Redway. It is a simple newslette
     docker-compose run web bin/rails db:seed
     ```
     
-   5.1. To make the email system work, you need to rename the file `env.exemple` on the root of the project to `.env` and put the variable recieved via email:
+   5.1. To make the email system work, you need to rename the file `env.example` on the root of the project to `.env` and copy/paste the variables recieved via email:
       ```bash
       #./.env
       # paste the variables bello
