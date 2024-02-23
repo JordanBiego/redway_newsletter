@@ -22,21 +22,36 @@ This project is a test application for a job at Redway. It is a simple newslette
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/redway-newsletter.git
+   ```
 2. Navigate to the project directory:
     ```bash
     cd redway-newsletter
+    ```
 3. Build the Docker containers:
     ```bash
     docker-compose build
+    ```
 4. Run the migrations:
     ```bash
     docker-compose run web bin/rails db:migrate
+    ```
 5. Run the seed for the Admin login:
     ```bash
     docker-compose run web bin/rails db:seed
+    ```
+    
+   5.1. To make the email system work, you need to rename the file `env.exemple` on the root of the project to `.env` and put the variable recieved via email:
+      ```bash
+      #./.env
+      # paste the variables bello
+      EMAIL=''
+      PASSWORD=''
+      SENDGRID_API_KEY=''
+      ```
 6. Run the app:
     ```bash
     docker-compose up
+    ```
 7. Visit http://localhost:3000 in your browser.
 
 ## Usage
