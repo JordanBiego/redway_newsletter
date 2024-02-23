@@ -1,5 +1,7 @@
 # Redway Newsletter Test Project
 
+[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/JordanBiego/redway_newsletter/blob/develop/README.pt-br.md)
+
 ## Description
 
 This project is a test application for a job at Redway. It is a simple newsletter app designed to allow users to sign up for newsletters and receive a confirmation email with a blog link. Additionally, there is an admin feature that enables Redway administrators to download a list containing all the emails submitted by users.
