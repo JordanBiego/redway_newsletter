@@ -6,6 +6,11 @@
 
 This project is a test application for a job at Redway. It is a simple newsletter app designed to allow users to sign up for newsletters and receive a confirmation email with a blog link. Additionally, there is an admin feature that enables Redway administrators to download a list containing all the emails submitted by users.
 
+## Requirements
+
+- **Docker**;
+- **Docker-compose**;
+
 ## Features
 
 - **Newsletter Signup:** Users can enter their email and name to receive newsletters via email upon signup;
